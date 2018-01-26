@@ -15,7 +15,7 @@
       <legend>Select an Item.</legend>
       <label for="item">Item List</label>
 
-      <select name="bus-items">
+      <select name="busItems">
         <option id="place-holder">Choose Below</option>
         <option id="">Bag</option>
         <option id="">Banana</option>
@@ -38,12 +38,13 @@
         <option id="">Water-Can</option>
         <option id="">Wine-Glass</option>
       </select>
-      <input type="number">
+      <label for="itemQuantity">Quantity</label>
+      <input name ="itemQuantity" type="number">
       <button id="submit-order">Add to Cart</button>
     </fieldset>
     </form>
   <p>To see the cart click on the button below.</p>
-  <button id="submit-order"><a href="cart.html">Go to Cart</a></button>
+  <button><a href="cart.html">Go to Cart</a></button>
     <script src="app.js"></script>
   </body>
 </html>
